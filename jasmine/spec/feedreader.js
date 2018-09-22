@@ -101,7 +101,7 @@ $(function() {
         });
 
         it('has at least one entry', function() {
-            const feed = document.querySelector('.feed');
+            const feed = document.querySelector('.entry');
             expect(feed.length).not.toBe(0);
         });
 });
